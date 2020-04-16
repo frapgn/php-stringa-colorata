@@ -8,9 +8,9 @@
     <body>
 
         <?php
-            if ($_GET['password'] == null) {
-                $_GET['password'] = '';
-            }
+            // if ($_GET['password'] == null) {
+            //     $_GET['password'] = '';
+            // }
 
             $password = $_GET['password'];
             if ($password == '') {
