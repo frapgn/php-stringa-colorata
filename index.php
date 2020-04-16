@@ -8,8 +8,10 @@
     <body>
 
         <?php
+            if ($_GET['password'] == null) {
+                $_GET['password'] = '';
+            }
 
-            $_GET['password'] = '';
             $password = $_GET['password'];
             if ($password == '') {
                 echo '<span>Passami la password via GET</div>';
