@@ -13,7 +13,7 @@
             // }
 
             $password = $_GET['password'];
-            if ($password == '') {
+            if ($password == null) {
                 echo '<span>Passami la password via GET</div>';
             } elseif ($password == 'Boolean') {
                 echo '<span class="green">La password corrisponde</div>';
